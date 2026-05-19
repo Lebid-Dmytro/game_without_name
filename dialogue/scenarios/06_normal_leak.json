@@ -1,0 +1,26 @@
+{
+  "id": "normal_leak_01",
+  "call_type": "normal",
+  "caller_name": "Moroz, T.",
+  "caller_unit": "7A",
+  "voice_profile": "tired_male",
+  "emotional_state": "annoyed",
+  "truth_value": true,
+  "opening_line": "There's water under my sink. Not an anomaly. Just a leak. Can you send maintenance?",
+  "anomaly_id": "",
+  "cctv_camera_id": "lobby",
+  "correct_actions": ["ignore", "dispatch"],
+  "notes_for_player": "Routine. Dispatch optional; ignore acceptable.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Seventh floor. Unit 7A. Kitchen pipe."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Started an hour ago. Getting worse. Normal problem."
+    }
+  ]
+}

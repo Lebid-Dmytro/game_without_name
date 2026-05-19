@@ -1,0 +1,31 @@
+{
+  "id": "brownout_01",
+  "call_type": "normal",
+  "caller_name": "Building grid (auto)",
+  "caller_unit": "SYS",
+  "voice_profile": "text_to_speech",
+  "emotional_state": "neutral",
+  "truth_value": true,
+  "opening_line": "Automated tenant ticket #8841: lights flickering on Floor 2. Requesting status. No intruder signal. No water signal.",
+  "anomaly_id": "",
+  "cctv_camera_id": "floor_2_corridor",
+  "correct_actions": ["ignore", "dispatch"],
+  "notes_for_player": "Electrical maintenance only. Do NOT cut power building-wide.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Floor 2 east corridor. Panels 2E-12 through 2E-19."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Intermittent since 01:40. Duration per flicker: 0.3 seconds."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Visual confirmation recommended. No anomaly class assigned."
+    }
+  ]
+}

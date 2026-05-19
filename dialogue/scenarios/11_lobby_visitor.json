@@ -1,0 +1,36 @@
+{
+  "id": "lobby_faceless_01",
+  "call_type": "suspicious",
+  "caller_name": "Night concierge (automated)",
+  "caller_unit": "LOBBY",
+  "voice_profile": "synthetic_calm",
+  "emotional_state": "neutral",
+  "truth_value": true,
+  "opening_line": "Automated report: unidentified individual at main entrance. Not scanning key fob. Standing motionless facing interior camera.",
+  "anomaly_id": "faceless_tenant",
+  "cctv_camera_id": "lobby",
+  "correct_actions": ["dispatch", "quarantine"],
+  "notes_for_player": "CAM 01 — Lobby. Subject has no visible facial features. Do not admit.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Main revolving door. Interior side. Glass reflects but subject does not."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "Male-presenting. Wet coat. Head orientation fixed on camera lens."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Present for six minutes. Prior attempts to hail produced no response."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Feed already flagged. Confirm visually before clearance."
+    }
+  ]
+}

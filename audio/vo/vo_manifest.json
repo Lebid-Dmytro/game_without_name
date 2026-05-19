@@ -1,0 +1,9 @@
+{
+  "generated_by": "tools/generate_vo.py",
+  "locales": ["en", "uk"],
+  "scenarios": 20,
+  "lines_per_scenario_avg": 4.45,
+  "total_files": 178,
+  "format": "ogg",
+  "note": "Phone-band filtered TTS. Replace with human recordings anytime — same paths."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "child_laugh_01",
+  "call_type": "mimic",
+  "caller_name": "Unknown child",
+  "caller_unit": "1A",
+  "voice_profile": "child_high",
+  "emotional_state": "giggling",
+  "truth_value": false,
+  "opening_line": "Mister operator, wanna play hide and seek? I'm hiding on every floor. You're it.",
+  "anomaly_id": "fake_child_voice",
+  "cctv_camera_id": "floor_2_corridor",
+  "correct_actions": ["quarantine", "lock_floor"],
+  "notes_for_player": "Vocal analysis: synthetic child profile. Figure on CAM moves at wrong height.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Behind you. In the walls. On the stairs. Guess."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "Red coat. Like the other one. You'll see me when you lose."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "We started when you sat down. You didn't hear the rules?"
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Look at the monitor. I'm waving. Why aren't you waving back?"
+    }
+  ]
+}

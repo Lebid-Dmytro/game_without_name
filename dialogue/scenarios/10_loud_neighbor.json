@@ -1,0 +1,26 @@
+{
+  "id": "neighbor_01",
+  "call_type": "normal",
+  "caller_name": "Ivanenko, S.",
+  "caller_unit": "5D",
+  "voice_profile": "middle_aged_female",
+  "emotional_state": "angry",
+  "truth_value": true,
+  "opening_line": "It's 2 AM and unit 5E is drilling again. I don't care if it's an anomaly. I want it to stop.",
+  "anomaly_id": "",
+  "cctv_camera_id": "floor_4_corridor",
+  "correct_actions": ["ignore", "dispatch"],
+  "notes_for_player": "Routine noise complaint. Dispatch optional.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Fifth floor, east side. 5E. Same as last week."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Started twenty minutes ago. Metallic sound. Rhythmic."
+    }
+  ]
+}

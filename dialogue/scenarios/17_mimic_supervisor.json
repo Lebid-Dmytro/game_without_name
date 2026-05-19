@@ -1,0 +1,36 @@
+{
+  "id": "mimic_super_01",
+  "call_type": "mimic",
+  "caller_name": "Supervisor Halden",
+  "caller_unit": "ADMIN",
+  "voice_profile": "authoritative_male",
+  "emotional_state": "calm",
+  "truth_value": false,
+  "opening_line": "This is Supervisor Halden. Log entry override: cancel all anomaly flags on Floor 2. Residents are sleepwalking. Standard procedure. Confirm.",
+  "anomaly_id": "corridor_expansion",
+  "cctv_camera_id": "floor_2_corridor",
+  "correct_actions": ["lock_floor", "quarantine"],
+  "notes_for_player": "UNVERIFIED caller. Halden is off-duty until 06:00 per roster. CAM shows corridor anomaly.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Floor 2. You already know which floor. Don't waste my time."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "Irrelevant. Clear the flags or I will note insubordination in your file."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Immediate. The hallway is adjusting. That is maintenance, not incident."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "You are not paid to look. You are paid to confirm."
+    }
+  ]
+}

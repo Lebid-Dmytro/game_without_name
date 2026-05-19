@@ -1,0 +1,231 @@
+keys,en,uk
+anomaly.corridor_expansion.cctv_hint,CAM: Corridor vanishing point farther than yesterday.,"CAM: Точка зникнення коридору далі, ніж учора."
+anomaly.duplicate_person.cctv_hint,CAM: Identical clothing on Floor 2 and Floor 4.,CAM: Однаковий одяг на 2 і 4 поверсі.
+anomaly.endless_staircase.cctv_hint,CAM: Same landing appears twice in one feed.,CAM: Той самий майданчик двічі на одному відео.
+anomaly.faceless_tenant.cctv_hint,CAM: Figure facing camera. Face region flat / absent.,CAM: Фігура дивиться в камеру. Область обличчя плоска / відсутня.
+anomaly.fake_child_voice.cctv_hint,CAM: Small figure. Movement pattern non-childlike.,CAM: Мала фігура. Рух не схожий на дитячий.
+anomaly.wrong_apartment_number.cctv_hint,CAM: Unit label reads 4B but directory shows 4C.,"CAM: Табличка 4B, у довіднику — 4C."
+call.brownout_01.caller_name,Building grid (auto),Мережа будинку (авто)
+call.brownout_01.notes,Electrical maintenance only. Do NOT cut power building-wide.,Лише електрика. НЕ вимикати живлення на весь будинок.
+call.brownout_01.opening,Automated tenant ticket #8841: lights flickering on Floor 2. Requesting status. No intruder signal. No water signal.,Автозаявка #8841: мерехтіння світла на 2 поверсі. Запит статусу. Без сигналу вторгнення. Без води.
+call.brownout_01.q.camera.response,Visual confirmation recommended. No anomaly class assigned.,Рекомендовано візуальне підтвердження. Клас аномалії не призначено.
+call.brownout_01.q.location.response,Floor 2 east corridor. Panels 2E-12 through 2E-19.,Східний коридор 2 поверху. Щити 2E-12 — 2E-19.
+call.brownout_01.q.timeline.response,Intermittent since 01:40. Duration per flicker: 0.3 seconds.,"Періодично з 01:40. Тривалість спалаху: 0,3 с."
+call.child_laugh_01.caller_name,Unknown child,Невідома дитина
+call.child_laugh_01.notes,Vocal analysis: synthetic child profile. Figure on CAM moves at wrong height.,Голос синтетичний. Фігура на CAM — хибна висота.
+call.child_laugh_01.opening,"Mister operator, wanna play hide and seek? I'm hiding on every floor. You're it.","Пане операторе, зіграємо в хованки? Я ховаюсь на кожному поверсі. Ви водите."
+call.child_laugh_01.q.appearance.response,Red coat. Like the other one. You'll see me when you lose.,"Червоне пальто. Як та інша. Побачите мене, коли програєте."
+call.child_laugh_01.q.camera.response,Look at the monitor. I'm waving. Why aren't you waving back?,Дивіться на монітор. Я махаю. Чому не махаєте назад?
+call.child_laugh_01.q.location.response,Behind you. In the walls. On the stairs. Guess.,За вами. У стінах. На сходах. Вгадайте.
+call.child_laugh_01.q.timeline.response,We started when you sat down. You didn't hear the rules?,"Почали, коли ви сіли. Ви не чули правил?"
+call.corridor_01.caller_name,Anonymous,Анонім
+call.corridor_01.notes,Mimic-adjacent caller. Feed still shows measurable expansion.,Дзвінок нагадує mimic. На відео все ще видно розширення.
+call.corridor_01.opening,The hallway is longer tonight. You measured it last month. Measure it again.,Коридор сьогодні довший. Ви міряли його минулого місяця. Виміряйте знову.
+call.corridor_01.q.appearance.response,No one. Just distance that wasn't there.,"Нікого. Лише відстань, якої не мало бути."
+call.corridor_01.q.location.response,Second floor. All of it. Every door farther away than before.,"Другий поверх. Увесь. Кожні двері далі, ніж були."
+call.corridor_01.q.timeline.response,Since you sat down. Since you started watching.,Відколи ви сіли. Відколи почали дивитися.
+call.duplicate_01.caller_name,"Sydorenko, A.","Сидоренко, А."
+call.duplicate_01.notes,Same clothing on CAM 02 and CAM 04 — verify both feeds.,Одяг на CAM 02 і CAM 04 — перевірте обидва потоки.
+call.duplicate_01.opening,I saw my uncle on the second floor. He's visiting me on four. He's in two places. That's not possible.,Я бачив дядька на другому поверсі. Він у мене в гостях на четвертому. Він у двох місцях. Це неможливо.
+call.duplicate_01.q.appearance.response,Grey jacket. Same bald spot. Same walk. Exactly the same.,Сіра куртка. Та сама лисина. Та сама хода. Точнісінько.
+call.duplicate_01.q.camera.response,Switch the cameras. You'll see. I'm not crazy. I'm tired of being scared.,Перемкніть камери. Побачите. Я не божевольня. Я втомилася боятися.
+call.duplicate_01.q.location.response,He's on two. He's also on four. Uncle Volodymyr doesn't have a twin.,Він на другому. Також на четвертому. У дядька Володимира немає близнюка.
+call.elevator_01.caller_name,"Hrytsenko, O.","Гриценко, О."
+call.elevator_01.notes,Elevator CAM — figure on cab roof. Do not restart power without protocol.,CAM ліфта — фігура на даху кабіни. Не вмикайте живлення без протоколу.
+call.elevator_01.opening,I'm stuck in the elevator. It stopped between floors. There's someone on the roof of the cab. I can hear them breathing.,Я застряг у ліфті. Зупинився між поверхами. Хтось на даху кабіни. Чую дихання.
+call.elevator_01.q.appearance.response,I can't see their face. Just hands on the ceiling panel.,Обличчя не бачу. Лише руки на стелі кабіни.
+call.elevator_01.q.camera.response,Check your monitor. Tell me what you see. Tell me I'm wrong.,"Подивіться на монітор. Скажіть, що бачите. Скажіть, що я помиляюся."
+call.elevator_01.q.location.response,Between eleven and twelve. The display is blank.,Між одинадцятим і дванадцятим. Табло порожнє.
+call.elevator_breath_01.caller_name,"Zinchenko, R.","Зінченко, Р."
+call.elevator_breath_01.notes,CAM 05 — figure on cab roof. Cut power before doors forced open.,"CAM 05 — фігура на даху кабіни. Вимкніть живлення, поки двері не відкрили силою."
+call.elevator_breath_01.opening,The elevator stopped on my floor. Doors won't open. There's breathing from the maintenance hatch. It's not human rhythm.,Ліфт зупинився на моєму поверсі. Двері не відкриваються. З люка техобслуговування дихання. Ритм не людський.
+call.elevator_breath_01.q.appearance.response,I only see hands. Through the ceiling panel. No face when the gap widened.,"Бачу лише руки. Крізь стелю кабіни. Обличчя не було, коли щілина розширилась."
+call.elevator_breath_01.q.camera.response,"You can see it, right? Tell me to stay calm. Tell me something true.",Ви ж бачите? Скажіть мені заспокоїтися. Скажіть щось правдиве.
+call.elevator_breath_01.q.location.response,Between eight and nine. Panel shows nothing. Lights dimming.,Між восьмим і дев'ятим. Панель нічого не показує. Світло тьмяніє.
+call.elevator_breath_01.q.timeline.response,Three minutes. Maybe four. The breathing syncs with the building hum.,Три хвилини. Може чотири. Дихання в такт гулу будинку.
+call.faceless_01.caller_name,"Kovalenko, L.","Коваленко, Л."
+call.faceless_01.notes,Cross-check CAM 04. Facial region absent.,Перевірте CAM 04. Область обличчя відсутня.
+call.faceless_01.opening,Hotline? There's a man outside my door. He won't leave. He has no face. Please—I'm not—this isn't a prank.,Гаряча лінія? Біля моїх дверей чоловік. Не йде. У нього немає обличчя. Будь ласка—я не… це не жарт.
+call.faceless_01.q.appearance.response,Tall. Dark coat. When he turned—I swear there's nothing where a face should be.,"Високий. Темне пальто. Коли повернувся—клянусь, там нічого замість обличчя."
+call.faceless_01.q.camera.response,"You have cameras, don't you? Look. Please look before you tell me I'm imagining it.","У вас є камери, так? Подивіться. Будь ласка, подивіться, перш ніж сказати, що мені здалося."
+call.faceless_01.q.location.response,"Fourth floor, east wing. Outside 4B. He's just standing there.","Четвертий поверх, східне крило. Біля 4B. Просто стоїть."
+call.faceless_01.q.timeline.response,Maybe ten minutes. Maybe longer. The clock in the hall is wrong again.,Можливо десять хвилин. Можливо довше. Годинник у коридорі знову збився.
+call.fake_child_01.caller_name,Unknown child,Невідома дитина
+call.fake_child_01.notes,Child voice flagged as synthetic. Figure on CAM moves wrong.,Дитячий голос позначено як синтетичний. Фігура на CAM рухається неправильно.
+call.fake_child_01.opening,Mister operator? Mommy won't wake up. Can you send someone? Please? I don't like the hallway.,Пане операторе? Мама не прокидається. Надішлете когось? Будь ласка? Мені страшно в коридорі.
+call.fake_child_01.q.appearance.response,I'm small. I'm wearing my red coat. Why are you asking so many questions?,Я маленька. Червоне пальто. Чому стільки питань?
+call.fake_child_01.q.camera.response,Don't look. Don't— ...look if you have to.,"Не дивіться. Не… дивіться, якщо мусите."
+call.fake_child_01.q.location.response,Outside 3C. The door is open. It's cold.,Біля 3C. Двері відчинені. Холодно.
+call.fake_child_01.q.timeline.response,"A long time. Or a second. You're wasting time, operator.","Довго. Або секунду. Ви марнуєте час, операторе."
+call.guard_stairs_01.caller_name,Security detail 3,Охорона 3
+call.guard_stairs_01.notes,CAM 06 — duplicate landing markers. Seal stairwell before patrol loss.,CAM 06 — дубльовані маркери. Загерметизуйте сходи до втрати патруля.
+call.guard_stairs_01.opening,Patrol in Stairwell B. Landings repeat. I passed the same extinguisher four times. Marker says floor three. GPS says floor three. The stairs keep going up.,Патруль у сходах B. Майданчики повторюються. Той самий вогнегасник чотири рази. Маркер — третій поверх. GPS — третій. Сходи все ростуть.
+call.guard_stairs_01.q.appearance.response,No hostile. Environment wrong. Walls feel farther each loop.,Без загрози. Середовище хибне. Стіни далі з кожним колом.
+call.guard_stairs_01.q.camera.response,You'll see the loop on feed. Tell me what floor I'm actually on.,"На відео побачите петлю. Скажіть, на якому я поверсі."
+call.guard_stairs_01.q.location.response,Stairwell B. South tower. I should be at the roof access by now.,"Сходи B, південна вежа. Мав уже бути біля виходу на дах."
+call.guard_stairs_01.q.timeline.response,Twelve minutes on foot. Watch shows twelve minutes. Building shows three.,Дванадцять хвилин пішки. Годинник — дванадцять. Будинок показує три.
+call.jogger_01.caller_name,"Bondarenko, D.","Бондаренко, Д."
+call.jogger_01.notes,Routine noise. CAM 06 should show normal resident exercise. Evacuation not warranted.,Шум. CAM 06 — звичайне навантаження. Евакуація не потрібна.
+call.jogger_01.opening,Sorry to bother you. Someone keeps running laps in Stairwell B at night. Heavy footsteps. It's probably nothing but I can't sleep.,"Вибачте, що турбую. Хтось бігає сходами B вночі. Важкі кроки. Мабуть, нічого, але я не сплю."
+call.jogger_01.q.appearance.response,Didn't see their face. Track suit. Headlamp.,Обличчя не бачив. Спортивний костюм. Ліхтарик на чолі.
+call.jogger_01.q.camera.response,Your cameras probably caught it already. I just want it logged.,"Камери, мабуть, уже зафіксували. Хочу лише запис у журналі."
+call.jogger_01.q.location.response,"Stairwell B, between floors five and eight. Regular rhythm.","Сходи B, між п'ятим і восьмим. Рівний ритм."
+call.jogger_01.q.timeline.response,"Every night this week, around 2 AM. Fifteen minutes, then silence.","Усю цю ніч, близько 2:00. П'ятнадцять хвилин, потім тиша."
+call.lobby_faceless_01.caller_name,Night concierge (automated),Нічний консьєрж (авто)
+call.lobby_faceless_01.notes,CAM 01 — Lobby. Subject has no visible facial features. Do not admit.,CAM 01 — лобі. Немає видимих рис обличчя. Не допускати.
+call.lobby_faceless_01.opening,Automated report: unidentified individual at main entrance. Not scanning key fob. Standing motionless facing interior camera.,Автозвіт: невстановлена особа біля головного входу. Не сканує ключ. Нерухомо дивиться в камеру.
+call.lobby_faceless_01.q.appearance.response,Male-presenting. Wet coat. Head orientation fixed on camera lens.,Чоловічий силует. Мокре пальто. Голова зафіксована на об'єктиві.
+call.lobby_faceless_01.q.camera.response,Feed already flagged. Confirm visually before clearance.,Потік уже позначено. Підтвердіть візуально перед допуском.
+call.lobby_faceless_01.q.location.response,Main revolving door. Interior side. Glass reflects but subject does not.,"Головні двері-револьвер. Зсередини. Скло відбиває, суб'єкт — ні."
+call.lobby_faceless_01.q.timeline.response,Present for six minutes. Prior attempts to hail produced no response.,Шість хвилин. Спроби привернути увагу — без відповіді.
+call.long_hall_01.caller_name,"Ponomarenko, E.","Пономаренко, Є."
+call.long_hall_01.notes,CAM 04 — vanishing point beyond spec. Isolate floor.,CAM 04 — точка зникнення за межами креслення. Ізолювати поверх.
+call.long_hall_01.opening,I walked to the elevator. It used to be thirty steps from my door. I counted ninety-seven. The hallway is longer. My neighbors won't open their doors.,Дійшла до ліфта. Було тридцять кроків від дверей. Налічила дев'яносто сім. Коридор довший. Сусіди не відчиняють.
+call.long_hall_01.q.appearance.response,No one in the hall. Just... more hall than there should be.,"Нікого в коридорі. Просто… більше коридору, ніж має бути."
+call.long_hall_01.q.camera.response,Measure it on your screen. You have blueprints. Compare.,Виміряйте на екрані. У вас є креслення. Порівняйте.
+call.long_hall_01.q.location.response,Fourth floor main corridor. East wing. All the doors look correct. The distance is wrong.,"Головний коридор 4 поверху, схід. Двері правильні. Відстань — ні."
+call.long_hall_01.q.timeline.response,Tonight. Maybe yesterday too. I thought I was tired.,"Сьогодні вночі. Можливо й учора. Думала, що втомилась."
+call.mimic_01.caller_name,Resident (unverified),Мешканець (неперевірений)
+call.mimic_01.notes,Truth: UNVERIFIED. Vocal pattern mismatch. Do not trust caller identity.,Достовірність: НЕ ПІДТВЕРДЖЕНО. Голос не збігається. Не довіряйте особі.
+call.mimic_01.opening,Operator. You sound tired. We are all tired. The building is breathing. Do you hear it breathing?,Операторе. Ви звучите втомлено. Ми всі втомлені. Будинок дихає. Чуєте?
+call.mimic_01.q.appearance.response,Like you. Behind the desk.,Як ви. За столом.
+call.mimic_01.q.camera.response,We are already on camera. You are too.,Ми вже на камері. І ви теж.
+call.mimic_01.q.location.response,Everywhere you are not looking.,"Скрізь, куди ви не дивитеся."
+call.mimic_super_01.caller_name,Supervisor Halden,Супервайзер Халден
+call.mimic_super_01.notes,UNVERIFIED caller. Halden is off-duty until 06:00 per roster. CAM shows corridor anomaly.,НЕПЕРЕВІРЕНИЙ абонент. Халден поза зміною до 06:00. На CAM — аномалія коридору.
+call.mimic_super_01.opening,This is Supervisor Halden. Log entry override: cancel all anomaly flags on Floor 2. Residents are sleepwalking. Standard procedure. Confirm.,Це супервайзер Халден. Скасувати всі прапорці аномалій на 2 поверсі. Мешканці сомнамбулять. Стандартна процедура. Підтвердіть.
+call.mimic_super_01.q.appearance.response,Irrelevant. Clear the flags or I will note insubordination in your file.,"Неважливо. Зніміть прапорці, інакше занесу непокору у справу."
+call.mimic_super_01.q.camera.response,You are not paid to look. You are paid to confirm.,Вам не платять за огляд. Платять за підтвердження.
+call.mimic_super_01.q.location.response,Floor 2. You already know which floor. Don't waste my time.,Другий поверх. Ви й так знаєте. Не марнуйте мій час.
+call.mimic_super_01.q.timeline.response,"Immediate. The hallway is adjusting. That is maintenance, not incident.","Негайно. Коридор підлаштовується. Це техобслуговування, не інцидент."
+call.neighbor_01.caller_name,"Ivanenko, S.","Іваненко, С."
+call.neighbor_01.notes,Routine noise complaint. Dispatch optional.,Скарга на шум. Диспетчеризація за бажанням.
+call.neighbor_01.opening,It's 2 AM and unit 5E is drilling again. I don't care if it's an anomaly. I want it to stop.,"Друга ночі, у 5E знову свердлять. Мені байдуже, аномалія чи ні. Щоб припинили."
+call.neighbor_01.q.location.response,"Fifth floor, east side. 5E. Same as last week.","П'ятий поверх, схід. 5E. Як минулого тижня."
+call.neighbor_01.q.timeline.response,Started twenty minutes ago. Metallic sound. Rhythmic.,Почалось двадцять хвилин тому. Металевий звук. Ритмічно.
+call.normal_leak_01.caller_name,"Moroz, T.","Мороз, Т."
+call.normal_leak_01.notes,Routine. Dispatch optional; ignore acceptable.,Рутина. Диспетчеризація за бажанням; ігнор допустимий.
+call.normal_leak_01.opening,There's water under my sink. Not an anomaly. Just a leak. Can you send maintenance?,Під раковиною вода. Не аномалія. Просто протік. Можете надіслати техніку?
+call.normal_leak_01.q.location.response,Seventh floor. Unit 7A. Kitchen pipe.,Сьомий поверх. Квартира 7A. Труба на кухні.
+call.normal_leak_01.q.timeline.response,Started an hour ago. Getting worse. Normal problem.,Почалось годину тому. Гірше. Звичайна проблема.
+call.relabel_01.caller_name,"Tkachuk, V.","Ткачук, В."
+call.relabel_01.notes,Directory conflict. Hall plaque does not match tenant records.,Конфлікт довідника. Табличка не збігається з реєстром.
+call.relabel_01.opening,My apartment is 4C. The door across from me now says 4C. Mine still says 4B on the inside but the hallway plaque changed overnight.,"Моя квартира 4C. Напроти тепер теж 4C. У мене всередині досі 4B, але табличка в коридорі змінилась за ніч."
+call.relabel_01.q.appearance.response,No person. Just wrong numbers. Fresh screw marks.,Ніхто. Лише хибні цифри. Свіжі сліди від викрутки.
+call.relabel_01.q.camera.response,Look at the doors. You'll see. Management never notified us.,Подивіться на двері. Побачите. Управління не повідомляло.
+call.relabel_01.q.location.response,"Fourth floor, west stack. Between the elevator and the garbage chute.","Четвертий поверх, західний блок. Між ліфтом і сміттєпроводом."
+call.relabel_01.q.timeline.response,I noticed when I took the trash out. Building directory in the lobby still lists old layout.,"Помітив, коли виносив сміття. У лобі довідник ще старий."
+call.stairs_01.caller_name,Building maintenance,Технічна служба
+call.stairs_01.notes,Stairwell feed shows repeated landing segment.,На відео сходів повторюється той самий майданчик.
+call.stairs_01.opening,Stairwell B doesn't end. I've climbed forty flights. I'm still on floor six. Send someone who believes me.,"Сходи B не закінчуються. Я піднявся сорок поверхів. Я досі на шостому. Надішліть того, хто мені повірить."
+call.stairs_01.q.camera.response,Camera's useless. It loops. Same step. Same rust stain. Over and over.,Камера марна. Зациклено. Той самий сходинка. Та пляма іржі. Знову і знову.
+call.stairs_01.q.location.response,"Stairwell B, south tower. I started at six. I'm still at six.","Сходи B, південна вежа. Почав з шостого. Досі на шостому."
+call.stairs_01.q.timeline.response,"Twenty minutes of stairs. My knees—look, just seal it off.","Двадцять хвилин сходів. Коліна… слухайте, просто загерметизуйте."
+call.static_fail,[static] ...could not verify.,[шум] ...не вдалося перевірити.
+call.two_uncles_01.caller_name,"Melnyk, I.","Мельник, І."
+call.two_uncles_01.notes,Duplicate on CAM 02 and CAM 04. Same clothing signature.,Дублікат на CAM 02 і CAM 04. Той самий одяг.
+call.two_uncles_01.opening,My uncle Volodymyr just walked past my door going downstairs. I called him on his phone. He answered from his apartment on four. He's still talking to me.,Дядько Володимир пройшов повз мої двері вниз. Я подзвонив йому — він відповів з четвертого. Досі розмовляє.
+call.two_uncles_01.q.appearance.response,Grey jacket. Same bald spot. Same limp from the knee surgery.,Сіра куртка. Та лисина. Та хромота після операції на коліні.
+call.two_uncles_01.q.camera.response,Pull up both floors. Tell me which one is the real one. Please.,"Відкрийте обидва поверхи. Скажіть, хто справжній. Будь ласка."
+call.two_uncles_01.q.location.response,He's on two right now. I hear him on the phone on four. Both voices.,Він на другому. Чую його по телефону на четвертому. Обидва голоси.
+call.two_uncles_01.q.timeline.response,Started two minutes ago. He's asking me why I'm crying.,"Почалось дві хвилини тому. Питає, чому я плачу."
+call.wrong_apt_01.caller_name,"Petrenko, M.","Петренко, М."
+call.wrong_apt_01.notes,Directory lists 4C at that position. Plaque mismatch on feed.,У довіднику на цій позиції 4C. На відео табличка не збігається.
+call.wrong_apt_01.opening,My neighbor's door says 4B. It's always been 4C. Someone changed the numbers. Who authorized that?,На дверях сусіда написано 4B. Завжди було 4C. Хтось змінив номери. Хто це узгодив?
+call.wrong_apt_01.q.appearance.response,"No person. Just the wrong number on the door. Brass plate, new scratches.","Ніхто. Лише хибний номер на дверях. Латунна табличка, свіжі подряпини."
+call.wrong_apt_01.q.location.response,Fourth floor. Between the stairwell and the elevator.,Четвертий поверх. Між сходами та ліфтом.
+call.wrong_apt_01.q.timeline.response,I noticed when I came back from night shift. Tonight. Unless it was always wrong.,"Помітив, коли повернувся з нічної зміни. Сьогодні вночі. Якщо це не завжди було так."
+cctv.anomaly,ANOMALY DETECTED,ВИЯВЛЕНО АНОМАЛІЮ
+decision.dispatch_bad,Guard team reported contact loss. Wrong assessment.,Група втратила зв'язок. Хибна оцінка ситуації.
+decision.dispatch_busy,Dispatch channel busy. Wait for confirmation.,Канал диспетчеризації зайнятий. Очікуйте підтвердження.
+decision.dispatch_ok,Guard dispatched. Floor sweep in progress. Anomaly contained.,Охорону відправлено. Обстеження поверху. Аномалію стримано.
+decision.evac_bad,Evacuation route compromised. Panic logged.,Маршрут евакуації скомпрометовано. Зафіксовано паніку.
+decision.evac_ok,Partial evacuation complete. Casualties minimal.,Часткову евакуацію завершено. Мінімальні втрати.
+decision.ignore_bad,Incident ignored. Sensors report spread on affected floor.,Інцидент проігноровано. Датчики фіксують поширення на поверсі.
+decision.ignore_ok,Call closed. No further action required.,Дзвінок закрито. Додаткових дій не потрібно.
+decision.invalid,Invalid protocol selected.,Обрано невірний протокол.
+decision.lock_bad,Isolation triggered on wrong sector. Residents trapped with entity.,Ізоляцію активовано на хибному секторі. Мешканців замкнено з сутністю.
+decision.lock_ok,Floor isolated. Access panels sealed.,Поверх ізольовано. Панелі доступу запечатано.
+decision.no_guards,No guard units available.,Немає вільних охоронців.
+decision.power_bad,Blackout spread to emergency systems. Elevators stalled.,Блекаут поширився на аварійні системи. Ліфти зупинено.
+decision.power_ok,Sector power cut. Motion sensors offline.,Живлення сектору відключено. Датчики руху офлайн.
+decision.quar_bad,Quarantine applied to clean unit. Complaints flooding in.,Карантин на чистій квартирі. Потік скарг.
+decision.quar_ok,Quarantine protocol active. Biological scan pending.,Протокол карантину активний. Очікується біосканування.
+decision.unknown_anomaly,Unknown anomaly reference in scenario.,Невідома аномалія в сценарії.
+game.death,Resident status: DECEASED. Incident logged.,Статус мешканця: ЗАГИБЕЛЬ. Інцидент зафіксовано.
+game.end.bad,"SHIFT END — Reality collapse.
+Building status: COMPROMISED.","КІНЕЦЬ ЗМІНИ — Колапс реальності.
+Статус будинку: СКОМПРОМЕТОВАНО."
+game.end.default,SHIFT END — Report filed.,КІНЕЦЬ ЗМІНИ — Звіт подано.
+game.end.good,"SHIFT END — Containment successful.
+Building status: STABLE.","КІНЕЦЬ ЗМІНИ — Стримування успішне.
+Статус будинку: СТАБІЛЬНИЙ."
+game.end.neutral,"SHIFT END — You survived.
+Building status: UNSTABLE.","КІНЕЦЬ ЗМІНИ — Ви вижили.
+Статус будинку: НЕСТАБІЛЬНИЙ."
+game.msg.answer_first,Answer the line before issuing protocols.,"Спочатку відповідайте на лінію, потім протокол."
+game.msg.no_call,No active call. Action logged locally.,Немає активного дзвінка. Дію зафіксовано локально.
+game.shift.all_calls_done,All scheduled calls processed. Anomaly level may still rise. Survive until shift end.,Усі заплановані дзвінки оброблено. Рівень аномалії ще може зростати. Витримай до кінця зміни.
+game.threat.collapse,CRITICAL: Reality collapse. Shift terminated.,КРИТИЧНО: Колапс реальності. Зміну завершено.
+game.threat.warning,WARNING: Anomaly 80%+. Collapse imminent at 90%.,УВАГА: Аномалія 80%+. Колапс о 90%.
+ui.action.cut_power,Cut power,Вимкнути живлення
+ui.action.dispatch,Dispatch,Відправити охорону
+ui.action.evacuate,Evacuate,Евакуація
+ui.action.ignore,Ignore,Ігнорувати
+ui.action.lock_floor,Lock floor,Заблокувати поверх
+ui.action.quarantine,Quarantine,Карантин
+ui.band.critical,CRITICAL,КРИТИЧНИЙ
+ui.band.high,HIGH,ВИСОКИЙ
+ui.band.low,LOW,НИЗЬКИЙ
+ui.band.medium,MEDIUM,СЕРЕДНІЙ
+ui.menu.quit,Quit,Вихід
+ui.menu.settings,Settings,Налаштування
+ui.menu.start,Start Night 1,Почати ніч 1
+ui.menu.subtitle,"Night shift prototype — Less content, more tension.","Нічна зміна — менше контенту, більше напруги."
+ui.menu.title,APARTMENT ANOMALY HOTLINE,ГАРЯЧА ЛІНІЯ АНОМАЛІЙ БУДИНКУ
+ui.office.anomaly,ANOMALY,АНОМАЛІЯ
+ui.office.answer,Answer call,Відповісти
+ui.office.awaiting_call,Awaiting incoming call...,Очікування вхідного дзвінка...
+ui.office.awaiting_data,Awaiting caller data.,Очікування даних абонента.
+ui.office.cam_next,CAM >,КАМ >
+ui.office.cam_prev,< CAM,< КАМ
+ui.office.cctv,CCTV — Left monitor,CCTV — лівий монітор
+ui.office.dispatch,Dispatch protocols,Протоколи реагування
+ui.office.incoming,INCOMING,ВХІДНИЙ
+ui.office.line_closed,Line closed. Next call pending...,Лінію закрито. Очікується наступний дзвінок...
+ui.office.log_ready,System log ready.,Системний журнал готовий.
+ui.office.main_menu,Main menu,Головне меню
+ui.office.no_call,— NO ACTIVE CALL —,— НЕМАЄ АКТИВНОГО ДЗВІНКА —
+ui.office.paused,Paused,Пауза
+ui.office.phone_idle,Phone idle,Телефон очікує
+ui.office.queue,Calls in queue,Дзвінків у черзі
+ui.office.queue_done,Queue: complete,Черга: завершено
+ui.office.resume,Resume,Продовжити
+ui.office.return_menu,Return to menu,У головне меню
+ui.office.ringing,[Phone ringing...],[Дзвінок...]
+ui.office.shift,SHIFT,ЗМІНА
+ui.office.shift_hold,All calls received. Hold position — monitor CCTV until shift end.,Усі дзвінки отримано. Тримай позицію — стеж за CCTV до кінця зміни.
+ui.office.static,[static hum],[шум лінії]
+ui.office.tenant_db,Tenant database,База мешканців
+ui.question.appearance,Ask appearance,Запитати зовнішність
+ui.question.camera,Request camera check,Перевірити камеру
+ui.question.location,Ask location,Запитати локацію
+ui.question.timeline,Ask timeline,Запитати час
+ui.settings.back,Back,Назад
+ui.settings.fullscreen,Fullscreen,Повний екран
+ui.settings.lang_en,English,English
+ui.settings.lang_uk,Ukrainian,Українська
+ui.settings.language,Language,Мова
+ui.settings.master,Master volume,Загальна гучність
+ui.settings.music,Music / ambient drone,Музика / ambient
+ui.settings.sfx,SFX volume,Гучність ефектів
+ui.settings.subtitles,Subtitles,Субтитри
+ui.settings.title,Settings,Налаштування
+ui.settings.vo,Voice volume,Гучність голосу
+ui.settings.vo_enabled,Caller voice (VO),Голос абонентів (VO)
+ui.tenant.note,Internal note,Внутрішня примітка
+ui.tenant.state,State,Стан
+ui.tenant.truth,Truth,Достовірність
+ui.tenant.voice,Voice,Голос
+ui.truth.unverified,UNVERIFIED,НЕ ПІДТВЕРДЖЕНО
+ui.truth.verified,VERIFIED,ПІДТВЕРДЖЕНО

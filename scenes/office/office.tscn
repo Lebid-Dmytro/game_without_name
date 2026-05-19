@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://office001"]
+
+[ext_resource type="PackedScene" uid="uid://officeroot001" path="res://scenes/office/office_root.tscn" id="1"]
+
+[node name="Office" type="Node"]
+
+[node name="OfficeRoot" parent="." instance=ExtResource("1")]

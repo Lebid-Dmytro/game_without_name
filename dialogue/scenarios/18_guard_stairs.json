@@ -1,0 +1,36 @@
+{
+  "id": "guard_stairs_01",
+  "call_type": "active_anomaly",
+  "caller_name": "Security detail 3",
+  "caller_unit": "SEC",
+  "voice_profile": "radio_filtered",
+  "emotional_state": "breathless",
+  "truth_value": true,
+  "opening_line": "Patrol in Stairwell B. Landings repeat. I passed the same extinguisher four times. Marker says floor three. GPS says floor three. The stairs keep going up.",
+  "anomaly_id": "endless_staircase",
+  "cctv_camera_id": "staircase",
+  "correct_actions": ["lock_floor", "cut_power"],
+  "notes_for_player": "CAM 06 — duplicate landing markers. Seal stairwell before patrol loss.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Stairwell B. South tower. I should be at the roof access by now."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "No hostile. Environment wrong. Walls feel farther each loop."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Twelve minutes on foot. Watch shows twelve minutes. Building shows three."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "You'll see the loop on feed. Tell me what floor I'm actually on."
+    }
+  ]
+}

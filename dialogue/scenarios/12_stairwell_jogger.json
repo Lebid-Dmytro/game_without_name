@@ -1,0 +1,36 @@
+{
+  "id": "jogger_01",
+  "call_type": "normal",
+  "caller_name": "Bondarenko, D.",
+  "caller_unit": "6B",
+  "voice_profile": "middle_aged_male",
+  "emotional_state": "embarrassed",
+  "truth_value": true,
+  "opening_line": "Sorry to bother you. Someone keeps running laps in Stairwell B at night. Heavy footsteps. It's probably nothing but I can't sleep.",
+  "anomaly_id": "",
+  "cctv_camera_id": "staircase",
+  "correct_actions": ["ignore", "dispatch"],
+  "notes_for_player": "Routine noise. CAM 06 should show normal resident exercise. Evacuation not warranted.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Stairwell B, between floors five and eight. Regular rhythm."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "Didn't see their face. Track suit. Headlamp."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Every night this week, around 2 AM. Fifteen minutes, then silence."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Your cameras probably caught it already. I just want it logged."
+    }
+  ]
+}

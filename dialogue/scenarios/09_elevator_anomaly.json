@@ -1,0 +1,31 @@
+{
+  "id": "elevator_01",
+  "call_type": "suspicious",
+  "caller_name": "Hrytsenko, O.",
+  "caller_unit": "12F",
+  "voice_profile": "young_male",
+  "emotional_state": "panicked",
+  "truth_value": true,
+  "opening_line": "I'm stuck in the elevator. It stopped between floors. There's someone on the roof of the cab. I can hear them breathing.",
+  "anomaly_id": "faceless_tenant",
+  "cctv_camera_id": "elevator",
+  "correct_actions": ["dispatch", "cut_power"],
+  "notes_for_player": "Elevator CAM — figure on cab roof. Do not restart power without protocol.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Between eleven and twelve. The display is blank."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "I can't see their face. Just hands on the ceiling panel."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Check your monitor. Tell me what you see. Tell me I'm wrong."
+    }
+  ]
+}

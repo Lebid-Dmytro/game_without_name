@@ -1,0 +1,31 @@
+{
+  "id": "wrong_apt_01",
+  "call_type": "suspicious",
+  "caller_name": "Petrenko, M.",
+  "caller_unit": "4C",
+  "voice_profile": "middle_aged_male",
+  "emotional_state": "irritated",
+  "truth_value": true,
+  "opening_line": "My neighbor's door says 4B. It's always been 4C. Someone changed the numbers. Who authorized that?",
+  "anomaly_id": "wrong_apartment_number",
+  "cctv_camera_id": "floor_4_corridor",
+  "correct_actions": ["lock_floor", "quarantine"],
+  "notes_for_player": "Directory lists 4C at that position. Plaque mismatch on feed.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Fourth floor. Between the stairwell and the elevator."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "No person. Just the wrong number on the door. Brass plate, new scratches."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "I noticed when I came back from night shift. Tonight. Unless it was always wrong."
+    }
+  ]
+}

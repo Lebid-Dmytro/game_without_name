@@ -1,0 +1,31 @@
+{
+  "id": "corridor_01",
+  "call_type": "active_anomaly",
+  "caller_name": "Anonymous",
+  "caller_unit": "—",
+  "voice_profile": "distorted",
+  "emotional_state": "flat",
+  "truth_value": false,
+  "opening_line": "The hallway is longer tonight. You measured it last month. Measure it again.",
+  "anomaly_id": "corridor_expansion",
+  "cctv_camera_id": "floor_2_corridor",
+  "correct_actions": ["lock_floor", "cut_power"],
+  "notes_for_player": "Mimic-adjacent caller. Feed still shows measurable expansion.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Second floor. All of it. Every door farther away than before."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "No one. Just distance that wasn't there."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Since you sat down. Since you started watching."
+    }
+  ]
+}

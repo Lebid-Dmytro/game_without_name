@@ -1,0 +1,36 @@
+{
+  "id": "elevator_breath_01",
+  "call_type": "active_anomaly",
+  "caller_name": "Zinchenko, R.",
+  "caller_unit": "9A",
+  "voice_profile": "young_female",
+  "emotional_state": "whispering",
+  "truth_value": true,
+  "opening_line": "The elevator stopped on my floor. Doors won't open. There's breathing from the maintenance hatch. It's not human rhythm.",
+  "anomaly_id": "faceless_tenant",
+  "cctv_camera_id": "elevator",
+  "correct_actions": ["cut_power", "dispatch"],
+  "notes_for_player": "CAM 05 — figure on cab roof. Cut power before doors forced open.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Between eight and nine. Panel shows nothing. Lights dimming."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "I only see hands. Through the ceiling panel. No face when the gap widened."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Three minutes. Maybe four. The breathing syncs with the building hum."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "You can see it, right? Tell me to stay calm. Tell me something true."
+    }
+  ]
+}

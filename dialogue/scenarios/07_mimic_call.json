@@ -1,0 +1,31 @@
+{
+  "id": "mimic_01",
+  "call_type": "mimic",
+  "caller_name": "Resident (unverified)",
+  "caller_unit": "???",
+  "voice_profile": "almost_human",
+  "emotional_state": "flat",
+  "truth_value": false,
+  "opening_line": "Operator. You sound tired. We are all tired. The building is breathing. Do you hear it breathing?",
+  "anomaly_id": "corridor_expansion",
+  "cctv_camera_id": "floor_2_corridor",
+  "correct_actions": ["lock_floor", "cut_power"],
+  "notes_for_player": "Truth: UNVERIFIED. Vocal pattern mismatch. Do not trust caller identity.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Everywhere you are not looking."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "Like you. Behind the desk."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "We are already on camera. You are too."
+    }
+  ]
+}

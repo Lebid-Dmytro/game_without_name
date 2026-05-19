@@ -1,0 +1,31 @@
+{
+  "id": "duplicate_01",
+  "call_type": "suspicious",
+  "caller_name": "Sydorenko, A.",
+  "caller_unit": "2A",
+  "voice_profile": "young_female",
+  "emotional_state": "whispering",
+  "truth_value": true,
+  "opening_line": "I saw my uncle on the second floor. He's visiting me on four. He's in two places. That's not possible.",
+  "anomaly_id": "duplicate_person",
+  "cctv_camera_id": "floor_2_corridor",
+  "correct_actions": ["dispatch", "quarantine"],
+  "notes_for_player": "Same clothing on CAM 02 and CAM 04 — verify both feeds.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "He's on two. He's also on four. Uncle Volodymyr doesn't have a twin."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "Grey jacket. Same bald spot. Same walk. Exactly the same."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Switch the cameras. You'll see. I'm not crazy. I'm tired of being scared."
+    }
+  ]
+}

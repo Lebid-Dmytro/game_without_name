@@ -1,0 +1,31 @@
+{
+  "id": "stairs_01",
+  "call_type": "active_anomaly",
+  "caller_name": "Building maintenance",
+  "caller_unit": "B-0",
+  "voice_profile": "radio_filtered",
+  "emotional_state": "strained",
+  "truth_value": true,
+  "opening_line": "Stairwell B doesn't end. I've climbed forty flights. I'm still on floor six. Send someone who believes me.",
+  "anomaly_id": "endless_staircase",
+  "cctv_camera_id": "staircase",
+  "correct_actions": ["lock_floor", "cut_power"],
+  "notes_for_player": "Stairwell feed shows repeated landing segment.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Stairwell B, south tower. I started at six. I'm still at six."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Twenty minutes of stairs. My knees—look, just seal it off."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Camera's useless. It loops. Same step. Same rust stain. Over and over."
+    }
+  ]
+}

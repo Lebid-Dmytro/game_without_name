@@ -1,0 +1,36 @@
+{
+  "id": "two_uncles_01",
+  "call_type": "active_anomaly",
+  "caller_name": "Melnyk, I.",
+  "caller_unit": "2C",
+  "voice_profile": "young_male",
+  "emotional_state": "confused",
+  "truth_value": true,
+  "opening_line": "My uncle Volodymyr just walked past my door going downstairs. I called him on his phone. He answered from his apartment on four. He's still talking to me.",
+  "anomaly_id": "duplicate_person",
+  "cctv_camera_id": "floor_2_corridor",
+  "correct_actions": ["dispatch", "quarantine"],
+  "notes_for_player": "Duplicate on CAM 02 and CAM 04. Same clothing signature.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "He's on two right now. I hear him on the phone on four. Both voices."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "Grey jacket. Same bald spot. Same limp from the knee surgery."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Started two minutes ago. He's asking me why I'm crying."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Pull up both floors. Tell me which one is the real one. Please."
+    }
+  ]
+}

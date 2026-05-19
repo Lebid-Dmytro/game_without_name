@@ -1,0 +1,36 @@
+{
+  "id": "fake_child_01",
+  "call_type": "active_anomaly",
+  "caller_name": "Unknown child",
+  "caller_unit": "3C",
+  "voice_profile": "child_high",
+  "emotional_state": "pleading",
+  "truth_value": false,
+  "opening_line": "Mister operator? Mommy won't wake up. Can you send someone? Please? I don't like the hallway.",
+  "anomaly_id": "fake_child_voice",
+  "cctv_camera_id": "floor_2_corridor",
+  "correct_actions": ["quarantine", "lock_floor"],
+  "notes_for_player": "Child voice flagged as synthetic. Figure on CAM moves wrong.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Outside 3C. The door is open. It's cold."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "I'm small. I'm wearing my red coat. Why are you asking so many questions?"
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "A long time. Or a second. You're wasting time, operator."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Don't look. Don't— ...look if you have to."
+    }
+  ]
+}

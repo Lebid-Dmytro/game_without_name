@@ -1,0 +1,36 @@
+{
+  "id": "long_hall_01",
+  "call_type": "suspicious",
+  "caller_name": "Ponomarenko, E.",
+  "caller_unit": "4A",
+  "voice_profile": "middle_aged_female",
+  "emotional_state": "quiet",
+  "truth_value": true,
+  "opening_line": "I walked to the elevator. It used to be thirty steps from my door. I counted ninety-seven. The hallway is longer. My neighbors won't open their doors.",
+  "anomaly_id": "corridor_expansion",
+  "cctv_camera_id": "floor_4_corridor",
+  "correct_actions": ["lock_floor", "cut_power"],
+  "notes_for_player": "CAM 04 — vanishing point beyond spec. Isolate floor.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Fourth floor main corridor. East wing. All the doors look correct. The distance is wrong."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "No one in the hall. Just... more hall than there should be."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Tonight. Maybe yesterday too. I thought I was tired."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Measure it on your screen. You have blueprints. Compare."
+    }
+  ]
+}

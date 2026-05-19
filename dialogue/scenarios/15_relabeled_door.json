@@ -1,0 +1,36 @@
+{
+  "id": "relabel_01",
+  "call_type": "suspicious",
+  "caller_name": "Tkachuk, V.",
+  "caller_unit": "4C",
+  "voice_profile": "elderly_male",
+  "emotional_state": "irritated",
+  "truth_value": true,
+  "opening_line": "My apartment is 4C. The door across from me now says 4C. Mine still says 4B on the inside but the hallway plaque changed overnight.",
+  "anomaly_id": "wrong_apartment_number",
+  "cctv_camera_id": "floor_4_corridor",
+  "correct_actions": ["lock_floor", "quarantine"],
+  "notes_for_player": "Directory conflict. Hall plaque does not match tenant records.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Fourth floor, west stack. Between the elevator and the garbage chute."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "No person. Just wrong numbers. Fresh screw marks."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "I noticed when I took the trash out. Building directory in the lobby still lists old layout."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "Look at the doors. You'll see. Management never notified us."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "faceless_01",
+  "call_type": "suspicious",
+  "caller_name": "Kovalenko, L.",
+  "caller_unit": "4B",
+  "voice_profile": "elderly_female",
+  "emotional_state": "anxious",
+  "truth_value": true,
+  "opening_line": "Hotline? There's a man outside my door. He won't leave. He has no face. Please—I'm not—this isn't a prank.",
+  "anomaly_id": "faceless_tenant",
+  "cctv_camera_id": "floor_4_corridor",
+  "correct_actions": ["dispatch", "lock_floor"],
+  "notes_for_player": "Cross-check CAM 04. Facial region absent.",
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ask location",
+      "response": "Fourth floor, east wing. Outside 4B. He's just standing there."
+    },
+    {
+      "id": "appearance",
+      "label": "Ask appearance",
+      "response": "Tall. Dark coat. When he turned—I swear there's nothing where a face should be."
+    },
+    {
+      "id": "timeline",
+      "label": "Ask timeline",
+      "response": "Maybe ten minutes. Maybe longer. The clock in the hall is wrong again."
+    },
+    {
+      "id": "camera",
+      "label": "Request camera check",
+      "response": "You have cameras, don't you? Look. Please look before you tell me I'm imagining it."
+    }
+  ]
+}
